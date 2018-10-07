@@ -1,0 +1,27 @@
+// Utilities
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@import "utils/variables";
+
+
+
+@import "hud/hud.scss";
+@import "hud/hudItems.scss";
+@import "hud/hudAttributes.scss";
+@import "hud/hudRight.scss";
+@import "hud/hudSpell.scss";
+
+@import "mapStyle.scss"; 
+
